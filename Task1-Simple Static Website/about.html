@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta -->
+    <title>CodeCraft Academy | About CodeCraft</title>
+    <meta
+      name="description"
+      content="CodeCraft Academy offers high-quality programming courses in Web Development, JavaScript, HTML, CSS, and modern technologies. Start your coding journey today."
+    />
+    <meta
+      name="keywords"
+      content="programming courses, learn coding, web development, HTML CSS JavaScript course, online programming academy"
+    />
+    <meta name="author" content="Ahmed Talaat" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="CodeCraft Academy - Learn Programming Online"
+    />
+    <meta
+      property="og:description"
+      content="Master programming with professional courses in Web Development, JavaScript, and modern technologies."
+    />
+    <meta property="og:image" content="/images/front-end.webp" />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"/></noscript>
+
+    <!-- Preconnect for CDNs -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+    <!-- FontAwesome Icons -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/></noscript>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <i class="fa-solid fa-code"></i> CodeCraft
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <section class="page-header">
+        <h1>About CodeCraft</h1>
+        <p>
+          Transforming absolute beginners into elite software engineers through
+          immersive coding education.
+        </p>
+      </section>
+
+      <section class="container">
+        <div class="about-section">
+          <div class="about-image">
+            <img
+              src="/images/story.webp"
+              alt="Students coding together"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="about-content">
+            <h2>Our Story</h2>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem">
+              Founded in 2022, CodeCraft was built on a simple premise:
+              traditional education isn't keeping up with the rapid pace of the
+              tech industry. We decided to bridge that gap by creating
+              intensive, hands-on bootcamps.
+            </p>
+            <p style="color: var(--text-muted)">
+              Today, our graduates are thriving at innovative startups and
+              leading companies around the globe.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-section">
+          <div class="about-image">
+            <img
+              src="/images/explain.webp"
+              alt="Developer teaching"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-content">
+            <h2>Our Methodology</h2>
+            <ul style="color: var(--text-muted); list-style: none">
+              <li style="margin-bottom: 1rem">
+                <i
+                  class="fa-solid fa-check"
+                  style="color: var(--primary); margin-right: 10px"
+                ></i>
+                <strong>Project-Based:</strong> Theory is good, building is
+                better. You will write code every single day.
+              </li>
+              <li style="margin-bottom: 1rem">
+                <i
+                  class="fa-solid fa-check"
+                  style="color: var(--primary); margin-right: 10px"
+                ></i>
+                <strong>Code Reviews:</strong> Get line-by-line feedback from
+                senior engineers to write clean, professional code.
+              </li>
+              <li style="margin-bottom: 1rem">
+                <i
+                  class="fa-solid fa-check"
+                  style="color: var(--primary); margin-right: 10px"
+                ></i>
+                <strong>Career Support:</strong> Resume polishing, mock
+                interviews, and direct referrals to hiring partners.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 style="margin-top: 4rem">Meet the Instructors</h2>
+        <p class="section-subtitle">Learn from the best in the industry.</p>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <img
+              src="/images/review 1.webp"
+              alt="Instructor"
+              class="team-img"
+              loading="lazy"
+            />
+            <h3>Omar Mohamed</h3>
+            <p class="team-role">Lead Frontend Instructor</p>
+            <p style="color: var(--text-muted); font-size: 0.9rem">
+              Experienced frontend engineer passionate about React, optimizing
+              performance, and creating intuitive UI designs.
+            </p>
+          </div>
+          <div class="team-card">
+            <img
+              src="/images/review 2.webp"
+              alt="Instructor"
+              class="team-img"
+              loading="lazy"
+            />
+            <h3>Amr Zaki</h3>
+            <p class="team-role">Backend Instructor</p>
+            <p style="color: var(--text-muted); font-size: 0.9rem">
+              Experienced backend architect with a passion for Node.js,
+              databases, and building robust system architectures.
+            </p>
+          </div>
+          <div class="team-card">
+            <img
+              src="/images/review 3.webp"
+              alt="Instructor"
+              class="team-img"
+              loading="lazy"
+            />
+            <h3>Ahmed Talaat</h3>
+            <p class="team-role">Data Science Instructor</p>
+            <p style="color: var(--text-muted); font-size: 0.9rem">
+              PhD in Machine Learning. Teaching Python, AI algorithms, and data
+              visualization.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3><i class="fa-solid fa-code"></i> CodeCraft</h3>
+          <p>
+            Empowering the next generation of software engineers through
+            cutting-edge, practical coding education. Start your journey today
+            and build the future with us.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="index.html"
+                ><i class="fa-solid fa-angle-right"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><i class="fa-solid fa-angle-right"></i> About Us</a
+              >
+            </li>
+            <li>
+              <a href="index.html#courses"
+                ><i class="fa-solid fa-angle-right"></i> Our Courses</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"
+                ><i class="fa-solid fa-angle-right"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angle-right"></i> Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angle-right"></i> Terms of Service</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i> FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>123 Al-Salam Street, Minya, Egypt</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+20 1104894017 </span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@CodeCraft.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 CodeCraft. All rights reserved. Crafted with
+          <i class="fa-solid fa-heart" style="color: var(--primary)"></i> by
+          Ahmed Talaat.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

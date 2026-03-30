@@ -19,7 +19,10 @@ A responsive landing page for an educational academy that provides programming c
 - Responsive design for all screen sizes  
 - Multiple pages (Home, About, Contact)  
 - Interactive navbar (mobile toggle)  
-- Reviews/testimonials slider  
+- Reviews/testimonials slider
+
+#### Live Demo
+[View CodeCraft Live](https://codecraft2.netlify.app/)
 
 ---
 
@@ -30,7 +33,10 @@ A personal portfolio website to showcase my skills, projects, and contact inform
 - Clean and modern UI  
 - Responsive layout  
 - Sections for About, Skills, Projects, and Contact  
-- Smooth navigation  
+- Smooth navigation
+
+#### Live Demo
+[View Portfolio Live](https://at-portfolio0.netlify.app/)
 
 ---
 
